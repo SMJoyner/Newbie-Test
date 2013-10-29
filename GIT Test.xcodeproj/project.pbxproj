@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042B34C1181FEFEA00B57E85 /* SJTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B34C0181FEFEA00B57E85 /* SJTesting.m */; };
 		04BBE9BF1819B0D500E25880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBE9BE1819B0D500E25880 /* Foundation.framework */; };
 		04BBE9C11819B0D500E25880 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBE9C01819B0D500E25880 /* CoreGraphics.framework */; };
 		04BBE9C31819B0D500E25880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBE9C21819B0D500E25880 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042B34BF181FEFEA00B57E85 /* SJTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTesting.h; sourceTree = "<group>"; };
+		042B34C0181FEFEA00B57E85 /* SJTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTesting.m; sourceTree = "<group>"; };
 		04BBE9BB1819B0D500E25880 /* GIT Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BBE9BE1819B0D500E25880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04BBE9C01819B0D500E25880 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		04BBE9B21819B0D500E25880 = {
 			isa = PBXGroup;
 			children = (
+				042B34BF181FEFEA00B57E85 /* SJTesting.h */,
+				042B34C0181FEFEA00B57E85 /* SJTesting.m */,
 				04BBE9C41819B0D500E25880 /* GIT Test */,
 				04BBE9E31819B0D500E25880 /* GIT TestTests */,
 				04BBE9BD1819B0D500E25880 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BBE9CB1819B0D500E25880 /* main.m in Sources */,
+				042B34C1181FEFEA00B57E85 /* SJTesting.m in Sources */,
 				04BBE9D51819B0D500E25880 /* SJViewController.m in Sources */,
 				04BBE9CF1819B0D500E25880 /* SJAppDelegate.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				04BBE9EF1819B0D500E25880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BBE9F01819B0D500E25880 /* Build configuration list for PBXNativeTarget "GIT TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				04BBE9F21819B0D500E25880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
